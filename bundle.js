@@ -1,0 +1,1 @@
+function qq(a,b){console.log(a,b)}function test(a,b){var c=b.substring(0,b.lastIndexOf("/")),d=b.substring(b.lastIndexOf("/"),b.length);d=d.substring(0,d.lastIndexOf("."));var e=a+c+d+".min.js";return grunt.log.writeln("现处理文件："+b+"  处理后文件："+e),e}console.log("ccc");
